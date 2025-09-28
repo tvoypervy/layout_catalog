@@ -6,7 +6,7 @@
   padding-right: 50px;
 }
 
-.picture {
+.logo__img {
   width: 40px;
   height: 40px;
   margin-left: 50px;
@@ -38,6 +38,7 @@
   color: $nav-color;
   align-items: center;
   display: block;
+  transition: 300ms;
 }
 
 .nav__link:hover {

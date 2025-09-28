@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: repeat(var(--column-count), $card-width);
 
-  gap: 46px 48px;
+  gap: $grid-gap;
 
   justify-content: center;
 }
